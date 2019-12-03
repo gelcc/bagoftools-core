@@ -1,5 +1,5 @@
 # Bag Of Tools - Core
-# pacote para gerenciamento de arquivos.
+# módulo para gerenciamento de arquivos.
 
 # função para obter nomes de arquivos.
 from os.path import basename;

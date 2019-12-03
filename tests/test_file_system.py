@@ -1,5 +1,5 @@
 import unittest;
-from file_system import read_text_file;
+from src import file_system;
 import os;
 
 class Test(unittest.TestCase):
@@ -13,7 +13,7 @@ class Test(unittest.TestCase):
         new_file.write(new_file_content);
         new_file.close();
         
-        result = read_text_file(new_file_name);
+        result = file_system.read_text_file(new_file_name);
         
         self.assertEqual(result['name'],new_file_name);
         self.assertEqual(result['content'],new_file_content);
@@ -21,4 +21,4 @@ class Test(unittest.TestCase):
         os.remove(new_file_name);
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main();
