@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup;
 
 setup(
     name='bagoftools-core',
@@ -11,6 +11,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        bagoftools=src:cli
+        bagoftools=src.__main__:cli
     ''',
 )
