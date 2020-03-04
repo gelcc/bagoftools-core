@@ -6,7 +6,7 @@ setup(
     author='GELC',
     url='https://github.com/gelcc/bagoftools-core',
     packages=['src'],
-    include_package_data=True,
+    include_package_data=False,
     install_requires=[
         'Click',
         'nltk'

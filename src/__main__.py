@@ -39,3 +39,7 @@ def tokenize(file, tokenization_type):
 
     # exibir resultado;
     click.echo(output);
+
+# executar cli em shell.
+if __name__ == '__main__':
+    cli();
