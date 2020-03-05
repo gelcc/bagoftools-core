@@ -15,7 +15,7 @@ Instalar **setuptools**:
 
 Executar o comando para instalar a última distribuição:
 
-`$ pip install `
+`$ pip install https://git.io/JvVOj`
 
 Verifique se tudo foi instalado com sucesso:
 
@@ -29,13 +29,17 @@ O seguinte comando realiza a tokenização de de um texto salvo em um arquivo (.
 
 `$ bagoftools tokenize -w doc.txt`
 
-Ao utilizar a opção (`-w`) ou (`--words`), a tokenização de palavras e pontuações será realizada. Todavia, como se trata da opção *default*, pode ser omitida:
+Ao utilizar a opção (`-w`) ou (`--words`), a tokenização de palavras e pontuações será realizada. Todavia, como se trata da opção *default*, essa *flag* pode ser omitida:
 
 `$ bagoftools tokenize doc.txt`
 
 Caso seja desejável separar as sentenças de um texto, a opção (`-s`) ou (`--sents`) pode ser utilizada.
 
 `$ bagoftools tokenize -s doc.txt`
+
+Para salvar os resultados, pode-se utilizar:
+
+`$ bagoftools tokenize doc.txt > tokens.txt`
 
 ---
 GELC - Grupo de Estudo em Linguística Computacional
