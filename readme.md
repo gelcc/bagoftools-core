@@ -15,7 +15,7 @@ Instalar **setuptools**:
 
 Executar o comando para instalar a última distribuição:
 
-`$ pip install https://git.io/JvVOj`
+`$ pip install https://github.com/gelcc/bagoftools-core/blob/master/dist/bagoftools_core-0.1-py3-none-any.whl?raw=true`
 
 Verifique se tudo foi instalado com sucesso:
 
